@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +8,112 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:	#F5F5F5;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.article_grid{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.article_image{
+  height:10%;
+  width:30%;
+}
+
+.grid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.article_content{
+  padding: 1rem;
+  
+
+}
+.article_title{
+  color:black;
+  font-size: large;
+  
+
+}
+
+.article_description{
+  font-size: larger;
+  font-family: 'Arapey', serif;
+  font-weight: bold;
+ 
+}
+
+.header{
+  margin-bottom: 2rem;
+  
+}
+
+.logo-dropdown{
+  border: none;
+  width: 9rem;
+  font-family: 'Jacques Francois Shadow', cursive;
+  background-color:	#F5F5F5;
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 4px;
+  cursor: pointer;
+
+}
+
+.header-logo{
+  display: flex;
+  font-family: 'Jacques Francois Shadow', cursive;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.header-category{
+  display: flex;
+  justify-content:space-evenly;
+
+
+
+}
+
+.header-button{
+
+  background-color: #403A3E;
+  color: white;
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.logo_title{
+  font-size: 2em;
+}
+
+@media screen and (max-width: 480px){
+  .article_grid{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+  }
+  .article_image{
+    width:100%;
+  }
+
 }
