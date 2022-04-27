@@ -16,7 +16,7 @@ function Header({ fetchNews }) {
             <div className="header-category">
                 <input className="header-button" type="button" value="Business" onClick={() => fetchNews(country, "business")} />
                 <input className="header-button" type="button" value="Health" onClick={() => fetchNews(country, "health")} />
-                <input className="header-button" type="button" value="General" onClick={() => fetchNews(country, "general")} />
+                <input className="header-button" type="button" value="Entertainment" onClick={() => fetchNews(country, "entertainment")} />
             </div>
         </header>
 
